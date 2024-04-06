@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="./orderpage.css">
     <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css">
     <script src="./fontawesome-free-6.2.1-web/js/all.min.js"></script>
 </head>
@@ -16,7 +17,13 @@
         <div class="header">
             <div class="delifood-tag">
                 <a href="./mainpage.html" id="banner-tag">DeliFood</a>
+                <div class="search-bar">
+                    <span id="icon-map"><i class="fa-solid fa-map-location-dot" style="color: rgb(208, 0, 0);"></i>
+                    </span>
+                    <input type="text" placeholder="Nhập địa chỉ của bạn" id="search-area" style="border: 0;">
+                </div>
             </div>
+
             <div class="endof-header">
                 <a href="">
                     <div class="header-items header-icon"><i class="fa-solid fa-cart-shopping"
@@ -34,5 +41,768 @@
             </div>
         </div>
         <!-- End header -->
+        <div class="" style="width: 100%;height: 80px;background-color: rgb(244, 244, 244);"></div>
+        <!-- Start Food List -->
+        <div class="list-food" >
+            <div class="list-title" style="width: 80%;">
+                <h2>Lựa chọn món ăn của bạn</h2>
+            </div>
+            <div class="row-list">
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/comnieu.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Cơm Niêu</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Cơm</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/kfc.jpg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Gà Rán KFC</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>FastFood</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/banhmiminhnhat.jpg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bánh Mì Minh Nhật</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bánh Mì</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row-list">
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/banhmiden.jpg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bánh Mì Đen</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bánh mì</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/comtho.jpg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Cơm Thố</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Cơm</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/banhcuon.jpg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bánh Cuốn Nóng</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bánh cuốn</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/lotteria.jpg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Lotteria</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>FastFood</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row-list">
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row-list">
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row-list">
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row-list">
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="row-items">
+                        <div class="items-image">
+                            <img src="./image/bundau.jpeg" alt="">
+                        </div>
+                        <div class="items-name">
+                            <h3>Bún Đậu Mắm Tôm</h3>
+                        </div>
+                        <div class="items-type">
+                            <p>Bún - Phở - Mì - Hủ Tiếu, Bún - Phở - Cháo</p>
+                        </div>
+                        <div class="items-info-services" style="display: flex;justify-content: space-between;">
+                            <div class="info-rate">
+                                <i class="fa-solid fa-star" style="color: rgb(251, 205, 0);"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="info-time">
+                                <i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>30 phút</span>
+                            </div>
+                            <div class="info-distance">
+                                <i class="fa-solid fa-location-dot" style="color: rgba(0, 0, 0, 0.485);"></i>
+                                <span>1km</span>
+                            </div>
+                        </div>
+                        <div class="items-discount" style="margin-top: 5px;">
+                            <i class="fa-solid fa-tag" style="color: orangered;"></i>
+                            <span>Bao ngon rẻ, Giá tốt nhất</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
+    </div>
 </body>

@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: black;
+}
+.delifood-tag{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.delifood-tag input{
+    padding: 8px;
+}
+.search-bar{
+    border: 1px solid rgba(0, 0, 0, 0.327);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#search-area{
+    border: 0;
+    width: 300px;
+}
+#search-area:focus{
+    outline: none;
+}
+.list-food{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.row-list{
+    display: flex;
+    width: 90%;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.row-items{
+    max-width: 282px;
+    margin: 10px 15px;
+}
+.items-image img{
+    width: 282px;
+    border-radius: 5px;
+    height: 150px;
+}
+.row-items span,p{
+    color: rgba(0, 0, 0, 0.485);
+}
